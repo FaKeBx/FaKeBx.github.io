@@ -1,0 +1,27 @@
+.rodape {
+  margin-top: 7.5rem;
+  background-color: #000;
+}
+
+.texto-rodape {
+  font-family: poppins;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #fff;
+  padding: 2rem;
+  margin-bottom: 0%;
+}
+
+.designer {
+  font-family: meslo-bold;
+  color: #171717;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  /* background-image: url(/img/brasil.svg);
+  background-repeat: no-repeat;
+  background-position: 17.5rem 0rem; */
+  text-align: center;
+  align-self: end;
+  grid-area: 2 / 2;
+  grid-column: 1 / -1;
+}

@@ -1,0 +1,79 @@
+.conteudo {
+  background-color: #000;
+  margin-top: 20rem;
+}
+
+h2 {
+  font-family: meslo-bold;
+  font-size: 6rem;
+  /* word-break: ; */
+  text-transform: uppercase;
+  background-image: linear-gradient(#1e59ae, #0b226f);
+  /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* a cor do texto deve estar como transparent */
+  color: transparent;
+  align-self: center;
+  justify-self: start;
+}
+
+.paragrafo {
+  color: #e6e6e6;
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  justify-self: start;
+  padding: 4rem;
+  word-break: break-all;
+  text-align: left;
+  grid-column: 2/5;
+}
+
+.botao {
+  text-decoration: none;
+  color: #fff;
+  font-family: poppins;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  background-image: linear-gradient(#50baff, #3b94ff);
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.25rem;
+  justify-self: start;
+  align-self: flex-start;
+}
+
+.conteudo b {
+  color: #1e59ae;
+}
+
+.citacao {
+  grid-column: 2/5;
+  display: grid;
+  gap: 1rem;
+}
+
+.citacao q {
+  color: #e6e6e6;
+  font-family: poppins;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  font-weight: 100;
+  font-style: italic;
+  padding: 0rem 4rem;
+  grid-column: 1 / 5;
+}
+
+.citacao p {
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  background-image: linear-gradient(#1e59ae, #0b226f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding-left: 4rem;
+  padding-bottom: 4rem;
+}
